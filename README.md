@@ -27,6 +27,18 @@ The notebook also contains hierarchical-clustering and DBSCAN exploration. The e
 
 These are the repository's existing analysis figures. They are not screenshots of the Streamlit app.
 
+## App Screenshots
+
+Real captures from the running Streamlit app (`streamlit run App.py`):
+
+**Home dashboard**
+
+![Credit card segmentation app - home dashboard](screenshots/cc_app_home.png)
+
+**Prediction page with a real segment assignment (Cluster 2 - Cash-advance customers)**
+
+![Credit card segmentation app - prediction result](screenshots/cc_app_prediction.png)
+
 ## Insights
 
 The committed output contains **8,950 customers** across four clusters. Counts and means below are calculated from `model/data_with_clusters.csv`.
